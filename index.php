@@ -40,7 +40,7 @@ include 'config.php';
   <!-- Product display  -->
 
   <div class="container">
-    <div> <h2>Khalti payment Shopping Cart</h2></div>
+    <div> <h2> Shopping Cart</h2></div>
     <div class="row">
       
      
