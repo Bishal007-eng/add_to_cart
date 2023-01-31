@@ -14,50 +14,13 @@ include 'config.php';
   <title>Shop</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css' />
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css' />
+  <link rel='stylesheet' href='style.css' />
 
 
   <style>
 
 
-    @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
-
-    *{
-      font-family: 'Titillium Web', sans-serif;
-    }
-    .product
-    {
-      border: 1px solid #eaeaec;
-      margin: -1px 19px 3px -1px;
-      padding: 10px;
-      text-align: center;
-      background-color: #efefef;
-    }
-
-    table, th, tr
-    {
-        text-align: center;
-    }
     
-    .title2
-    {
-        text-align: center;
-        color: #66afe9;
-        background-color: #efefef;
-        padding: 2%;
-    }
-    
-    h2{
-      text-align: center;
-      color: #66afe9;
-      background-color: #efefef;
-      padding: 2%;
-    }
-
-  
-    table th{
-      background-color: #efefef;
-    } 
-
 
   </style>
 
@@ -66,31 +29,13 @@ include 'config.php';
 
 
 <body>
-<!-- Nav Bar -->
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <a class="navbar-brand" href="index.html"><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;Khalti Payment Store</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html"><i class="fas fa-mobile-alt mr-2"></i>Products</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html"><i class="fas fa-th-list mr-2"></i>Categories</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html"><i class="fas fa-money-check-alt mr-2"></i>Checkout</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html"><i class="fas fa-shopping-cart"></i> <span id="cart-item" class="badge badge-danger"></span></a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
 
+  <?php
+
+    require 'navbar.php';
+
+  ?>
 
   <!-- Product display  -->
 
