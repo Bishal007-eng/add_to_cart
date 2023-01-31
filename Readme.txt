@@ -1,0 +1,1 @@
+This is a practise for Khalti Payment Gateyway for an ecommerce website.
