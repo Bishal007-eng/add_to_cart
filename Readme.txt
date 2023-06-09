@@ -1,1 +1,1 @@
-This is a practise for Khalti Payment Gateyway for an ecommerce website.
+This is a practise for shopping cart in a ecommerce website.
